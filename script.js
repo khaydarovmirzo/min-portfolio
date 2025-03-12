@@ -42,4 +42,12 @@ window.addEventListener('DOMContentLoaded', function () {
       }
     }
   })
+  
+  // Loader
+
+	const loaderWrapper = document.querySelector('.loader-wrapper')
+
+	setTimeout(() => {
+		loaderWrapper.style.display = 'none'
+	}, 1500)
 })
